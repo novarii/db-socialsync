@@ -97,8 +97,4 @@ To set up a local development environment:
 
 ## Contributors
 
-- Original development by ebozoglu
-
-## License
-
-[Your license information here]
+- Original development by ebozoglu]
