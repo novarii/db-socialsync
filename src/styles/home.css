@@ -1,0 +1,230 @@
+/* Post card styling */
+.posts-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.post {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 16px;
+}
+
+.post:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.post-header h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  margin: 0;
+}
+
+.post-header p {
+  font-size: 12px;
+  color: #888;
+  margin: 0;
+}
+
+.post-content {
+  margin-bottom: 16px;
+}
+
+.post-content h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.post-content p {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.post-actions {
+  display: flex;
+  gap: 16px;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 12px;
+}
+
+.post-actions a {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #777;
+  text-decoration: none;
+}
+
+.post-actions a:hover {
+  color: #6247aa;
+}
+
+/* Create post container */
+.create-post {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.create-post form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.create-post textarea {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 12px;
+  resize: none;
+  min-height: 80px;
+  font-size: 14px;
+}
+
+.create-post select {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.create-post button {
+  align-self: flex-end;
+  background-color: #6247aa;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.create-post button:hover {
+  background-color: #513999;
+}
+
+/* Vote buttons styling */
+.upvote-btn,
+.downvote-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Profile picture */
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f0ebfa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6247aa;
+  font-weight: bold;
+  margin-right: 12px;
+}
+
+/* Layout for main content and sidebar */
+.home-layout {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.sidebar {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 16px;
+  height: fit-content;
+}
+
+.user-info {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 16px;
+}
+
+.communities-list h3 {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.communities-list ul {
+  list-style: none;
+}
+
+.communities-list li {
+  margin-bottom: 8px;
+}
+
+.communities-list a {
+  color: #555;
+  text-decoration: none;
+}
+
+.communities-list a:hover {
+  color: #6247aa;
+  text-decoration: underline;
+}
+
+/* Verified badge styling */
+.verified-badge {
+  display: inline-block;
+  color: #6247aa;
+  margin-left: 4px;
+}
+
+/* Save button styling */
+.save-btn {
+  color: #888;
+  cursor: pointer;
+}
+
+.save-btn:hover,
+.save-btn.saved {
+  color: #6247aa;
+}
+
+/* Empty state styling */
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.empty-state i {
+  color: #ddd;
+  margin-bottom: 12px;
+}
+
+.empty-state p {
+  color: #888;
+  font-size: 16px;
+}

@@ -1,0 +1,6 @@
+user_id,username,email,password,role,created_at
+11111111-1111-1111-1111-111111111111,john_doe,john.doe@example.com,password1,administrator,2025-01-01 10:00:00
+22222222-2222-2222-2222-222222222222,jane_smith,jane.smith@example.com,password2,moderator,2025-01-02 11:30:00
+33333333-3333-3333-3333-333333333333,bob_johnson,bob.johnson@example.com,password3,moderator,2025-01-03 09:15:00
+44444444-4444-4444-4444-444444444444,alice_williams,alice.williams@example.com,password4,regular_user,2025-01-04 14:20:00
+55555555-5555-5555-5555-555555555555,mike_brown,mike.brown@example.com,password5,regular_user,2025-01-05 16:45:00

@@ -1,0 +1,148 @@
+/* Main communities content */
+.communities-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.communities-content h1 {
+  margin-bottom: 24px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Create community form */
+.create-community {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.create-community h2 {
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #6247aa;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #513999;
+}
+
+/* Communities list */
+.communities-list {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
+
+.communities-list h2 {
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+/* Community cards */
+.community-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.community-card:last-child {
+  border-bottom: none;
+}
+
+.community-card h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+}
+
+.community-card h3 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.community-card h3 a:hover {
+  color: #6247aa;
+  text-decoration: underline;
+}
+
+.community-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.community-card .btn-primary,
+.community-card .btn-secondary {
+  white-space: nowrap;
+  margin-left: 16px;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: #6247aa;
+  border: 1px solid #6247aa;
+  border-radius: 8px;
+  padding: 9px 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: #f9f5ff;
+}
+
+/* Community info */
+.community-info {
+  flex-grow: 1;
+}
+
+.community-actions {
+  flex-shrink: 0;
+}
+
+/* Empty state */
+.empty-communities {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.empty-communities p {
+  color: #777;
+  margin-bottom: 16px;
+}

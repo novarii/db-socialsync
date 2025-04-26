@@ -1,0 +1,177 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+a {
+    color: #6247aa;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+.app-header {
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6247aa;
+}
+
+.search-bar input {
+    padding: 8px 12px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: #6247aa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main-nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-item {
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.nav-item.active {
+    background-color: #f0ebfa;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Forms */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* Buttons */
+.btn-primary {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #6247aa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-primary, 
+.btn-primary a,
+a.btn-primary {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #513999;
+    text-decoration: none;
+}
+
+.btn-primary:hover, 
+.btn-primary a:hover,
+a.btn-primary:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-secondary {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #f0ebfa;
+    color: #6247aa;
+    border: 1px solid #6247aa;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: #e4daff;
+    text-decoration: none;
+}
+
+/* Role Badges */
+.role-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.role-badge.regular_user {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.role-badge.moderator {
+    background-color: #a5d6a7;
+    color: #1b5e20;
+}
+
+.role-badge.administrator {
+    background-color: #90caf9;
+    color: #0d47a1;
+}

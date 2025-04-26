@@ -1,0 +1,57 @@
+/* Authentication Pages Styling */
+.auth-header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 50px);
+    padding: 20px;
+}
+
+.auth-content {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 32px;
+    color: #6247aa;
+    margin-bottom: 10px;
+}
+
+.site-tagline {
+    margin-bottom: 30px;
+    color: #777;
+}
+
+.auth-form {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.form-subtitle {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.auth-form .btn-primary {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.auth-redirect {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
